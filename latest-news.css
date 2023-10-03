@@ -104,7 +104,71 @@ body{
   
   
 }
+#pochettino-img, #infinite-athlete-img{
+  max-width: 500px;
+}
+#container{
+  text-align: center;
+  display: flex;
+  align-content: center;
+  width: 100%;
+  gap: 1%;
+  margin-bottom: 100px;
+}
 
+h3{
+  font-family: var(--rubrik-font-family);
+  font-size: var(--rubrik-font-size);
+  color: white;
+
+}
+
+.infinite-rubrik{
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: var(--rubrik-font-family);
+  font-size: var(--rubrik-font-size);
+  color: white;
+
+}
+.pochettino-rubrik{
+  margin-right: 10%;
+  margin-left: 10%;
+  font-family: var(--rubrik-font-family);
+  font-size: var(--rubrik-font-size);
+
+}
+
+#infinite-athlete{
+  color: white;
+  font-family: var(--rubrik-font-family);
+  font-size: var(--rubrik-font-size);
+  
+}
+
+
+
+#pochettino{
+  color: white;
+  font-family: var(--rubrik-font-family);
+  font-size: var(--rubrik-font-size);
+
+}
+
+
+#Kante-rubrik{
+  color: white;
+  font-family: var(--rubrik-font-family);
+  font-size: var(--rubrik-font-size);
+  padding: 20px 0px 150px 10%;
+}
+
+#kante{
+  width: 80%;
+  height: 750px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 a{
   text-decoration: none;
@@ -116,3 +180,4 @@ a:visited{
 a:hover{
   text-decoration: underline;
 }
+
