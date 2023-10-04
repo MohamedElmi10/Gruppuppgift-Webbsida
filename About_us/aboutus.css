@@ -194,3 +194,12 @@ flex-grow: 1;
 .box3, .box4, .box5{
   height: 500px;
 }
+
+.img{
+  width: 86%;
+  height: 180px;
+  margin-left: 23px;
+  margin-top: 3px;
+  margin-bottom: 2px;
+  border-radius: 8px;
+}
