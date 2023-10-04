@@ -143,3 +143,12 @@
         border-radius: var(--border-radius);
     
     }
+
+    input[type="submit"]{
+        background-color: #3755eb;
+        color: aliceblue;
+    }
+    
+    label{
+        left: 0;
+    }
