@@ -119,3 +119,27 @@
         width: 700px;
         
     }
+
+    #container{
+        width: 700px;
+        border: var(--border);
+        border-radius: var(--border-radius);
+        padding: 2rem;
+        background-color: aliceblue;
+        
+        margin: 50px auto;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="submit"],
+    input[type="password"],
+    #comment
+     {
+        width: 100%;
+        padding: 10px;
+        border: var(--border);
+        border-radius: var(--border-radius);
+    
+    }
