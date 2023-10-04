@@ -135,7 +135,7 @@ body{
     height: 125px;
     text-align: center;
     padding-top: 88px;
-
+    background-image: url(img/infinite\ athlete\ vanlig\ bild.png);
     background-size: 100%;
 }
 #pochettino{
@@ -144,7 +144,7 @@ body{
     border:1px solid black;
     height: 125px;
     text-align: center;
-
+    background-image: url(img/Skärmbild\ 2023-09-30\ 212132.png);
     background-size: 100%;
 }
 
@@ -155,6 +155,7 @@ body{
     height: 125px;
     text-align: center;
     vertical-align:bottom;
+    background-image: url(img/kante.webp);
     background-size: 100%;
 }
 
