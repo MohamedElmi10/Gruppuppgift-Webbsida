@@ -162,7 +162,7 @@ p {
   letter-spacing: 3px;
 }
 
-.flexbox-containe {
+.flexbox-container {
 display: flex;
 justify-content: center;
 width: 100%;
@@ -170,3 +170,17 @@ gap: 20px;
 flex-wrap: wrap;
 flex-grow: 1;
 }
+
+.flexbox-iteam{
+  flex-basis: 350px;
+  height: 300px;
+  border: 2px solid black;
+  margin: 5px;
+  background-color: aliceblue;
+  box-sizing: border-box;
+  color: black;
+  border-radius: 5px;
+  width: 500px;
+
+}
+
