@@ -190,3 +190,7 @@ flex-grow: 1;
   margin-top: 50px;
   height: 400px;
 }
+
+.box3, .box4, .box5{
+  height: 500px;
+}
