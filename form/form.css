@@ -106,3 +106,16 @@
         color: antiquewhite;
         font-family: garamond;
         font-size: 30px;
+    }
+
+    #first-container{
+        border: 3px solid darkcyan;
+        border-radius: 3rem;
+        margin: 300px auto;
+        padding:1em;
+        text-align: center;
+        background-color: aliceblue;
+        min-height: 300px;
+        width: 700px;
+        
+    }
