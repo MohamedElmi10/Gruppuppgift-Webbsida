@@ -141,3 +141,211 @@ p{
     color: rgb(241, 7, 7);
 }
 
+#container{
+  display: flex;
+  flex-grow: 1;
+  gap: 2rem;
+  margin-top: 0;
+  /*flex-wrap: wrap;*/
+  
+  
+
+}
+/*Link of the nav-bar to my page*/
+#navlink-to-page:visited{
+  color: purple;
+  text-decoration: none;
+}
+#navlink-to-page:link{
+  text-decoration: none;
+  color: antiquewhite;
+  
+}
+#navlink-to-page:hover{
+  color: yellowgreen;
+  text-decoration:underline;
+
+}
+/* player-card link's*/
+#player-container .item a:visited{
+  color: purple;
+  text-decoration: none;
+}
+#player-container .item a:link{
+  color:antiquewhite;
+  text-decoration: none;
+  
+}
+#player-container .item a:hover{
+  color: yellowgreen;
+  text-decoration:underline;
+  
+  
+}
+
+#player-container .item a:active{
+  border-radius: 1rem;
+  color: aliceblue;
+}
+#player-container .item a:hover{
+  color: yellowgreen;
+  text-decoration:underline;
+  
+  border-radius: 1rem;
+}
+/*@media (min-width: 760px) {
+  sidebar-for-news{
+      width:300px;
+  }
+
+  
+
+}
+*/
+
+
+#player-container {
+  
+  border: var(--border);
+  border-radius: var(--border-radius);
+  font-family: var(--rubrik-font-family);
+  font-size: var(--rubrik-font-size);
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr ;
+  grid-template-areas: 
+ 
+  "player1 player2 player3"
+  "player4 player5 player6"
+  "player7 player8 player9"
+  "player10 . player11"
+ 
+  ;
+  gap: 1rem;
+  margin-top: 10rem;
+  grid-area: player-container;
+  width: fit-content;
+  background-color: antiquewhite;
+}
+@media (min-width: 768px) and (max-width: 960px){
+  #player-container {
+  
+      border: var(--border);
+      border-radius: var(--border-radius);
+      font-family: var(--rubrik-font-family);
+      font-size: var(--rubrik-font-size);
+      display: grid;
+      grid-template-columns:1fr 1fr ;
+      grid-template-areas: 
+     
+      "player1 player2"
+      "player3 player4"
+      "player5 player6"
+      "player7 player8 "
+      "player9 player10"
+      " . player11"
+     
+      ;
+      gap: 1rem;
+      margin-top: 10rem;
+      grid-area: player-container;
+      width: fit-content;
+      background-color: antiquewhite;
+  }
+
+}
+  
+@media (max-width: 768px){
+  #player-container {
+  
+      border: var(--border);
+      border-radius: var(--border-radius);
+      font-family: var(--rubrik-font-family);
+      font-size: var(--rubrik-font-size);
+      display: grid;
+      grid-template-columns:1fr ;
+      grid-template-areas: 
+     
+      "player1"
+      "player2"
+      "player3"
+      "player4"
+      "player5" 
+      "player6"
+      "player7" 
+      "player8 "
+      "player9" 
+      "player10"
+      "player11"
+     
+      ;
+      gap: 1rem;
+      margin-top: 10rem;
+      grid-area: player-container;
+      width: fit-content;
+      background-color: antiquewhite;
+  }
+
+
+
+}
+
+
+
+#player-container .item{
+  
+  
+  border: var(--border);
+  border-radius: var(--border-radius);
+  font-family: var(--text-font-family);
+  font-size: var(--text-font-size);
+  min-height: auto;
+  min-width: 300px;
+  text-align: center;
+  text-decoration-thickness: 25%;
+  padding: 1rem;
+  padding-top:0.25rem;
+ 
+
+}
+
+#player-container .item img{
+  max-width: 100%;
+} 
+
+
+#player1{
+  grid-area: player1;
+}
+#player2{
+  grid-area: player2;
+}
+#player3{
+  grid-area: player3;
+}
+#player4{
+  grid-area: player4;
+}
+#player5{
+  grid-area: player5;
+}
+#player6{
+  grid-area: player6;
+}
+#player7{
+  grid-area: player7;
+}
+#player8{
+  grid-area: player8;
+}
+#player9{
+  grid-area: player9;
+}
+#player10{
+  grid-area: player10;
+
+}
+#player11{
+  grid-area: player11;
+}
+
+
