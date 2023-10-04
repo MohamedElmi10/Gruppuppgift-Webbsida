@@ -147,3 +147,17 @@ p{
   align-items: center;
   height: auto;
 }
+
+.h1{
+  text-align: center;
+  color: white;
+}
+
+h3{ 
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  letter-spacing: 3px;
+}
