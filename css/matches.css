@@ -241,7 +241,11 @@ button:hover{
 			
 			
 		}
-        
+        #logo-text {
+            
+            display: none;
+            
+          }
          
 
 		#box1
