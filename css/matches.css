@@ -314,7 +314,9 @@ button:hover{
 			
 		}
      
-        
+        #img1{
+            display: none;
+        }
 
 	#box1{
 		
