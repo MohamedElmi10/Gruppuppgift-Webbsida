@@ -110,8 +110,25 @@ p{
  }
 
 
+/* Main content styling */
 
+ #tnc{
+    width: 700px;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    background-color: aliceblue;
+    
+    margin: 50px auto;
 
+}
+.term-tiltes{
+    font-size: var(--rubrik-font-size);
+    font-family: var(--rubrik-font-family);
+   
+    width: 45%;
+
+}
 
 
 
