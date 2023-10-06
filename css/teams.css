@@ -32,7 +32,6 @@ body{
    overflow: hidden;
     background-color: #303f8d;
     align-items: center;
-    margin-top: 10px;
     
   }
   
@@ -353,6 +352,7 @@ p{
   border-radius: var(--border-radius);
   font-family: var(--rubrik-font-family);
   font-size: var(--rubrik-font-size);
+  
 
   margin-top: 10rem;
   height: 2000px;
@@ -386,10 +386,11 @@ p{
   min-width: 200px; 
   display: flex;
   flex-flow: column wrap;
-  gap: 10rem;
+  gap: 0rem;
   background-color: antiquewhite;
   grid-area: sidebar-for-news;
   text-align: center;
+
  
   
 }
@@ -398,4 +399,10 @@ p{
   margin-bottom: 10rem;
   
   
+}
+
+
+.news-pics{
+  max-width: 100%;
+  height: auto;
 }
