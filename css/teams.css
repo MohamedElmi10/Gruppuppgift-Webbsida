@@ -142,14 +142,18 @@ p{
 
 #container{
   display: flex;
-  flex-grow: 1;
   gap: 2rem;
   margin-top: 0;
-  /*flex-wrap: wrap;*/
-  
-  
-
 }
+
+@media (max-width: 1750px){
+  #container{
+    flex-wrap: wrap;
+  }
+
+  
+}
+
 /*Link of the nav-bar to my page*/
 #navlink-to-page:visited{
   color: purple;
@@ -225,7 +229,7 @@ p{
   width: fit-content;
   background-color: antiquewhite;
 }
-@media (min-width: 768px) and (max-width: 960px){
+@media (min-width: 765px) and (max-width: 960px){
   #player-container {
   
       border: var(--border);
@@ -253,7 +257,7 @@ p{
 
 }
   
-@media (max-width: 768px){
+@media (max-width: 764px){
   #player-container {
   
       border: var(--border);
