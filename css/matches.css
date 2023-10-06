@@ -144,7 +144,7 @@ p{
 }
 .container{
 
-	width: 90%;
+	width: 89%;
 	margin: 20px auto;
 	min-height: 150px;
 	display: grid;
@@ -302,7 +302,7 @@ button:hover{
 	{
 		.container{
 
-			width: 90%;
+			width: 89%;
 			margin: 20px auto;
 			min-height: 150px;
 			display: grid;
@@ -313,10 +313,10 @@ button:hover{
 			
 			
 		}
-     
+        
         #img1{
             display: none;
-        }
+        }   
 
 	#box1{
 		
@@ -383,7 +383,7 @@ button:hover{
 	{
 		.container{
 
-			width: 90%;
+			width: 89%;
 			margin: 20px auto;
 			min-height: 100px;
 			display: flex;
