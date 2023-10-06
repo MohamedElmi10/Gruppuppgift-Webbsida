@@ -14,7 +14,7 @@
 }
 body{
     width: 100%;
-    height: 4000px;
+    height: 1500px;
     background-color: #3755eb;
 }
 
@@ -161,7 +161,7 @@ body{
 
 
 
-p{
+#text{
     color: black;
     border: 1px solid black;
     background-color: white;
@@ -172,6 +172,7 @@ p{
     font-family:var(--text-font-family);
     font-size: var(--text-font-size);
     letter-spacing: 1px;
+    margin-bottom:150px ;
 }
 
 
@@ -184,4 +185,60 @@ a:visited{
 }
 a:hover{
   text-decoration: underline;
+}
+/*footer styling*/
+.footer-container{
+  width: 100%;
+  height: 100px;
+  
+}
+
+
+footer {
+  
+  bottom: 0;
+  background-color: #1e3773;
+  color: #fff;
+  height: 260px;
+  width: 100%;
+  padding-top: 40px;
+  margin: 0;
+  
+}
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h2{
+  font-size: 28px;
+}
+h5{
+  font-size: 18px;
+}
+p{
+ 
+  font-size: 18px;
+}
+.icon{
+ 
+  list-style: none;
+  display: flex;
+  font-size: 35px;
+ 
+  
+}
+.icon li{
+margin-left:40px ;
+margin-right: 40px;
+
+ 
+}
+.icon a{
+  color: rgb(255, 255, 255);
+}
+.icon a:hover{
+  color: rgb(241, 7, 7);
 }
