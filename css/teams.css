@@ -146,11 +146,14 @@ p{
   margin-top: 0;
 }
 
-@media (max-width: 1750px){
+@media  (max-width: 1000px){
   #container{
     flex-wrap: wrap;
   }
 
+  #img2{
+    min-width: 100%;
+  }
   
 }
 
