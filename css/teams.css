@@ -378,7 +378,8 @@ p{
 
 }
 .news{
-
+  border: var(--border);
+  border-radius: var(--border-radius);
   font-family: var(--text-font-family);
   font-size: var(--text-font-size);
   min-height: 700px;
