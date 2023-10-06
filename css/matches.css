@@ -241,7 +241,11 @@ button:hover{
 			
 			
 		}
-        
+        #logo-text {
+            
+            display: none;
+            
+          }
          
 
 		#box1
@@ -310,7 +314,9 @@ button:hover{
 			
 		}
      
-        
+        #img1{
+            display: none;
+        }
 
 	#box1{
 		
