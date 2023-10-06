@@ -91,7 +91,7 @@ body{
     grid-column-end: 7;
     grid-row-start: 2;
     grid-row-end: 7;
- 
+    border-radius: var(--border-radius);
   }
 
   #artikel-container{
@@ -135,7 +135,7 @@ body{
     height: 125px;
     text-align: center;
     padding-top: 88px;
-    background-image: url(img/Skärmbild\ 2023-09-30\ 212132.png);
+    background-image: url(../img/Skärmbild\ 2023-09-30\ 212132.png);
     background-size: 100%;
 }
 #chilwell-injury{
@@ -144,7 +144,7 @@ body{
     border:1px solid black;
     height: 125px;
     text-align: center;
-    background-image: url(img/chilwell\ skada.webp);
+    background-image: url(../img/chilwell\ skada.webp);
     background-size: 100%;
 }
 
@@ -155,7 +155,7 @@ body{
     height: 125px;
     text-align: center;
     vertical-align:bottom;
-    background-image: url(img/kante.webp);
+    background-image: url(../img/kante.webp);
     background-size: 100%;
 }
 
