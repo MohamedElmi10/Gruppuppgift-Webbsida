@@ -288,7 +288,9 @@ p{
       background-color: antiquewhite;
   }
 
-
+#img2{
+  display: none;
+}
 
 }
 
