@@ -22,6 +22,7 @@ body{
 
 
 }
+/* Header/nav styling */
 h1{
     font-size: var(--rubrik-font-size);
     font-family: var(--rubrik-font-family);
@@ -115,6 +116,7 @@ p{
 
 
 
+/* Footer styling */
 .footer-container{
     width: 100%;
     height: 100px;
