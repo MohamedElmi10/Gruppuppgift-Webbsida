@@ -199,7 +199,7 @@ h1{
 	min-height: 150px;
 	margin-bottom: 10px;
     padding: 10PX;
-    background-color: rgb(167, 167, 158);
+    background-color: rgba(167, 167, 158, 0.95);
 }
 #box5
 {
@@ -395,7 +395,9 @@ button:hover{
 			
 		}
        
-        
+        .icon{
+			font-size: x-small;
+		}
        
 
 	
